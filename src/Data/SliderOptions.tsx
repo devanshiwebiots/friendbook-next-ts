@@ -141,15 +141,6 @@ export const eventCategory = {
         slidesToShow: 3,
         slidesToScroll: 1,
       },
-      // breakpoint: 576,
-      // settings: {
-      //     slidesToShow: 2,
-      //     slidesToScroll: 1
-      // },
-      // breakpoint: 480,
-      // settings: {
-      // slidesToShow: 1
-      // }
     },
   ],
 };
@@ -167,10 +158,6 @@ export const twoSlide = {
         slidesToShow: 3,
         slidesToScroll: 1,
       },
-      // breakpoint: 991,
-      // settings: {
-      // slidesToShow: 2
-      // }
     },
   ],
 };
@@ -390,10 +377,6 @@ export const sideBarGame = {
         slidesToShow: 3,
         slidesToScroll: 1,
       },
-      // breakpoint: 576,
-      // settings: {
-      // slidesToShow: 2
-      // }
     },
   ],
 };

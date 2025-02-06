@@ -19,7 +19,6 @@
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-        // background: darken(var(--theme-color), 0.2);
         background: rgba(var(--theme-color), 0.2);
     }
 }

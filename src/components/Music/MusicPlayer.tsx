@@ -6,7 +6,6 @@ import { songsList } from "@/Data/music";
 const PlayerBox: React.FC = () => {
    const [currIndex, setCurrIndex] = useState<number>(0);
    const [isPlaying, setIsPlaying] = useState<boolean>(false);
-  //  const currSong = useRef<HTMLAudioElement>(new Audio());
    const currSong = useRef<HTMLAudioElement | undefined>(typeof Audio !== "undefined" ? new Audio("") : undefined);
    const songTitle = useRef<HTMLHeadingElement>(null);
    const songArtist = useRef<HTMLHeadingElement>(null);
@@ -15,16 +14,7 @@ const PlayerBox: React.FC = () => {
    const volumeSlider = useRef<HTMLInputElement>(null);
    const volumeTrail = useRef<HTMLDivElement>(null);
    useEffect(() => {changeSong()}, []);
-  //  const changeSong = () => {
-  //    let currentStatus = isPlaying;
-  //    if (currentStatus) toggleState();
-  //    const song = songsList[currIndex];
-  //    if (songTitle.current) songTitle.current.textContent = song.title;
-  //    if (songArtist.current) songArtist.current.textContent = song.artist;
-  //    if (songThumb.current) songThumb.current.style.backgroundImage = `url(${song.thumb})`;
-  //    currSong.current.src = song.link;
-  //    if (currentStatus) toggleState();
-  //  };
+ 
    const toggleState = () => {
      if (isPlaying) {
          currSong.current?.pause();

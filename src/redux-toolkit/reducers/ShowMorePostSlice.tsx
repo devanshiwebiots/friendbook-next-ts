@@ -8,15 +8,6 @@ const initialState: ShowMorePostSliceInterFace = {
   style7: [],
   style12: [],
   favouriteHome: [],
-
-
-  //   style2:[]
-  //   style3:[]
-  //   style4:[]
-  //   style5:[]
-  //   style6:[]
-  //   style7:[]
-  //   style8:[]
 };
 
 export const ShowMorePostSlice = createSlice({

@@ -62,9 +62,6 @@ export const authoption: NextAuthOptions = {
       // Default to baseUrl if any issue
       return baseUrl;
     },
-    // async redirect({ url, baseUrl }) {
-    //   return url.startsWith(baseUrl) ? url : baseUrl;
-    // }
   },
   debug:true
   

@@ -608,13 +608,7 @@
 
                     .right-box {
                         height: 100vh;
-                        // a{
-                        //     .close{
-                        //         right: 37px !important;
-                        //         top: 50px !important;
-                        //     }
-                        // }
-
+                      
                         .reply-section {
                             margin-top: 20px;
                             display: flex;
@@ -671,22 +665,13 @@
                                 height: 100% !important;
                                > div{
                                     padding: 25px !important;
-                                    >div{
-                                        //     transform: scaleX(1) !important;
-                                        //     height: 4px !important;
-                                        // }
-                                    }
-                                    
+                                                                       
                                     &:nth-child(2) {
                                         width: 100% !important;
                                         height: 100% !important;
                                         div{
                                             margin: 0 auto;
                                         }
-                                        // div{
-                                        //     left: 45px !important;
-                                        //     top: 75px !important;
-                                        // }
                                     }
                                 }
                             }

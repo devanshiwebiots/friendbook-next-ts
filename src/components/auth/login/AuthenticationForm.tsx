@@ -23,12 +23,11 @@ const AuthenticationForm: React.FC = () => {
     });
 
     if (result?.ok) {
-      toast.success("successfully Logged in Rediract......");
+      toast.success("successfully Logged in Redirect......");
       router.push("/newsfeed/style2");
     } else {
       toast.error("Invalid Credentaial...");
     }
-    console.log("result data....",result)
   };
 
   return (

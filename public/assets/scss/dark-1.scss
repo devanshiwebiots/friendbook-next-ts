@@ -1,22 +1,7 @@
 // utils
 @import "utils/variables";
-// $black: #ffffff;
-// $white: #131c30;
-// $theme-color: #3b5999;
-// $theme-light: #18243e;
-// $title-color: #cccccc;
-// $font-color: #b7b7b7;
+
 @import "utils/mixins";
-// vendors
-// @import "vendors/animate";
-// @import "vendors/bootstrap";
-// @import "vendors/date-picker";
-// @import "vendors/emojionearea.scss";
-// @import "vendors/font-awesome";
-// @import "vendors/fullcalender.scss";
-// @import "vendors/slick";
-// @import "vendors/slick-theme";
-// @import "vendors/weather-animated.scss";
 //base
 @import "base/typography";
 @import "base/reset";
@@ -26,7 +11,6 @@
 @import "components/button";
 @import "components/calender";
 @import "components/dropdown";
-// @import "components/emoji";
 @import "components/form";
 @import "components/gradient";
 @import "components/icon";
@@ -82,17 +66,6 @@
 @import "pages/profile-page";
 @import "pages/setting";
 @import "pages/weather-page";
-
-
-
-// component which don't need dark variables
-// default variable components
-// $black: #000000;
-// $white: #ffffff;
-// $theme-color: #3b5999;
-// $theme-light: #edf7fb;
-// $title-color: #223645;
-// $font-color: #647589;
 @import "layout/header";
 @import "layout/sidebar";
 @import "layout/birthday";
@@ -104,11 +77,5 @@
 // import component which need dark variables
 @import "themes/dark"; // dark css
 @import "themes/theme-setting";
-// $black: #ffffff;
-// $white: #131c30;
-// $theme-color: #0389c9;
-// $theme-light: #232e42;
-// $title-color: #cccccc;
-// $font-color: #b7b7b7;
 @import "themes/responsive";
 @import "themes/rtl";

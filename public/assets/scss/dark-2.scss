@@ -1,22 +1,7 @@
 // utils
 @import "utils/variables";
-// $black: #ffffff;
-// $white: #1d2d3a;
-// $theme-color: #5280a4;
-// $theme-light: #112331;
-// $title-color: #cccccc;
-// $font-color: #b7b7b7;
 @import "utils/mixins";
-// vendors
-// @import "vendors/animate";
-// @import "vendors/bootstrap";
-// @import "vendors/date-picker";
-// @import "vendors/emojionearea.scss";
-// @import "vendors/font-awesome";
-// @import "vendors/fullcalender.scss";
-// @import "vendors/slick";
-// @import "vendors/slick-theme";
-// @import "vendors/weather-animated.scss";
+
 //base
 @import "base/typography";
 @import "base/reset";
@@ -83,16 +68,6 @@
 @import "pages/setting";
 @import "pages/weather-page";
 
-
-
-// component which don't need dark variables
-// default variable components
-// $black: #000000;
-// $white: #ffffff;
-// $theme-color: #5280a4;
-// $theme-light: #f1f5f8;
-// $title-color: #223645;
-// $font-color: #647589;
 @import "layout/header";
 @import "layout/sidebar";
 @import "layout/birthday";
@@ -109,11 +84,5 @@
 }
 
 @import "themes/theme-setting";
-// $black: #ffffff;
-// $white: #1d2d3a;
-// $theme-color: #5280a4;
-// $theme-light: #112331;
-// $title-color: #cccccc;
-// $font-color: #b7b7b7;
 @import "themes/responsive";
 @import "themes/rtl";

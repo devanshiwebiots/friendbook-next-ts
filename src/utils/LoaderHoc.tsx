@@ -7,7 +7,6 @@ const LoaderHoc = <T extends {}>(OriginalComponent: React.ComponentType<T>) => {
     useEffect(() => {
       const timeout = setTimeout(() => {
         setShow(false);
-        // aa true nu false krwu loading ,mate
       }, 3000);
 
       return () => {

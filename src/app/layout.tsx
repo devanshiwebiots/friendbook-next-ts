@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import { getServerSession } from "next-auth";
 import { authoption } from "./api/auth/[...nextauth]/authOption";
 import SessionWrapper from "@/Common/SessionWrapper";
+import ErrorBoundary from "@/Common/ErrorBoundry";
 
 export const metadata: Metadata = {
   title: "FriendBookNext",
@@ -15,18 +16,20 @@ export const metadata: Metadata = {
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const session = await getServerSession(authoption);
   return (
-    <html lang='en'>
+    <html lang="en">
       <head>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet' />
-        <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap' rel='stylesheet' />
-        <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
       </head>
       <body>
-        <SessionWrapper session={session}>
-          <Providers>{children}</Providers>
-          <ToastContainer />
-        </SessionWrapper>
+        <ErrorBoundary>
+          <SessionWrapper session={session}>
+            <Providers>{children}</Providers>
+            <ToastContainer />
+          </SessionWrapper>
+        </ErrorBoundary>
       </body>
     </html>
   );

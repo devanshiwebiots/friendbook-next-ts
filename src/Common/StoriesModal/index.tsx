@@ -46,8 +46,6 @@ const StoriesModal: FC<StoriesModalProps> = ({ showModal, toggle }) => {
                   <ReactInstaStories
                     stories={story}
                     loop
-                    //  width={1200}
-                    //  height={720}
                   />
                 </div>
                 <div className="reply-section">
