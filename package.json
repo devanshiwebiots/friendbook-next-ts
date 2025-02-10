@@ -53,5 +53,11 @@
     "@types/lodash": "^4.17.15",
     "@types/react-slick": "^0.23.13",
     "sass": "1.77.6"
+  },
+  "overrides": {
+    "react-popper": {
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0"
+    }
   }
 }
