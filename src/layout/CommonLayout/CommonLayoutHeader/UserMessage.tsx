@@ -11,7 +11,7 @@ const UserMessage = () => {
           <li key={index}>
             <a href={Href}>
               <Media>
-                <Image width={40} height={40} src={`${ImagePath}/user-sm/${index + 1}.jpg`} alt="user"/>
+                <Image width={40} height={40} src={`${ImagePath}/user-sm/${index + 1}.jpg`} alt="user" unoptimized/>
                 <Media body>
                   <div>
                     <h5 className="mt-0">{data.name}</h5>

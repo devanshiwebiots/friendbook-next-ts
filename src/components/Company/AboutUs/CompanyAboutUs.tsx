@@ -13,7 +13,7 @@ const CompanyAboutUs: React.FC = () => {
           <CompanyTitle mainTitle="friendbook" parentTitle="about us" />
           <Col lg="6">
             <div className="vector-section about-image">
-              <Image height={339.44} width={508.8} src={`${ImagePath}/about.jpg`} className="img-fluid blur-up wow zoomIn lazyloaded" alt=""/>
+              <Image height={339.44} width={508.8} src={`${ImagePath}/about.jpg`} className="img-fluid blur-up wow zoomIn lazyloaded" alt="" unoptimized/>
             </div>
           </Col>
           <Col lg="6">

@@ -21,7 +21,7 @@ const SearchLayoutFooter: React.FC<SearchLayoutFooterInterFace> = ({diffrentImag
             </div>
             <div className="footer-content">
               <div className="footer-logo">
-                <Image src={`${ImagePath}/icon/${diffrentImage ? "logo.png" : "logo-color.png"}`} alt="" height={47} width={148}/>
+                <Image src={`${ImagePath}/icon/${diffrentImage ? "logo.png" : "logo-color.png"}`} alt="" height={47} width={148} unoptimized/>
               </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddoeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, et dolore magna aliqua. Ut enim ad minimveniam, enim ad minim veniam,{" "}</p>
               <div className="footer-social">

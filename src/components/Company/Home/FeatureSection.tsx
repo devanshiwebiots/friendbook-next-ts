@@ -27,6 +27,7 @@ const FeatureSection: React.FC = () => {
                     }.png`}
                     className="img-fluid blur-up lazyloaded"
                     alt=""
+                    unoptimized
                   />
                 </div>
                 <div className="feature-content">

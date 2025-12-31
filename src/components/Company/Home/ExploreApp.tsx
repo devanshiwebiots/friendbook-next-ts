@@ -32,13 +32,13 @@ const ExploreApp: React.FC = () => {
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Dolorum blanditiis atque cum iure nihil, ipsa commodi veniam,nemo ipsam sed aliquam aliquid modi totam. Quia architectonesciunt facere consectetur laudantium.</p>
                 <ul className="feature-lisiting">
                     {names.map((data,index)=> <li key={index}>
-                    <Image height={18} width={18} src={`${SvgPath}/checkmark.svg`} className="img-fluid blur-up lazyloaded" alt=""/>
+                    <Image height={18} width={18} src={`${SvgPath}/checkmark.svg`} className="img-fluid blur-up lazyloaded" alt="" unoptimized/>
                     {data}
                   </li>)}
                 </ul>
                 <div className="app-buttons">
                   {images.map((data,index)=> <a href={Href} key={index}>
-                    <Image height={57.72} width={178.08} src={`${ImagePath}/icon/${data}.png`} className="img-fluid blur-up lazyloaded" alt="" key={index}/>
+                    <Image height={57.72} width={178.08} src={`${ImagePath}/icon/${data}.png`} className="img-fluid blur-up lazyloaded" alt="" key={index} unoptimized/>
                   </a>)}
                 </div>
               </div>

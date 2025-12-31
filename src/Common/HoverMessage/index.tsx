@@ -14,15 +14,15 @@ const HoverMessage = ({ name, target, placement, imagePath }: HoverMessageProps)
     <UncontrolledPopover trigger="hover" placement={placement} target={target}>
       <PopoverBody>
         <Media className="popover-media">
-          <Image height={60} width={60} className="img-fluid user-img" src={`${ImagePath}/${imagePath}`} alt="user" />
+          <Image height={60} width={60} className="img-fluid user-img" src={`${ImagePath}/${imagePath}`} alt="user" unoptimized/>
           <Media body>
             <h4>{name}</h4>
             <h6>
-              <Image height={15} width={15} src={`${SvgPath}/users.svg`} className="img-fluid" alt="users" />
+              <Image height={15} width={15} src={`${SvgPath}/users.svg`} className="img-fluid" alt="users" unoptimized/>
               30 mutual friend
             </h6>
             <h6>
-              <Image height={15} width={15} src={`${SvgPath}/map-pin.svg`} className="img-fluid" alt="users" />
+              <Image height={15} width={15} src={`${SvgPath}/map-pin.svg`} className="img-fluid" alt="users" unoptimized/>
               lives in london
             </h6>
           </Media>

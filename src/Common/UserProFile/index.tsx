@@ -16,7 +16,7 @@ const UserProFile = () => {
               <CustomImage src={`${ImagePath}/story/8.jpg`} className="img-fluid blur-up bg-img lazyloaded" alt="profile"/>
             </div>
             <span className="stats">
-              <Image width={15} height={15} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyloaded" alt="verified"/>
+              <Image width={15} height={15} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyloaded" alt="verified" unoptimized/>
             </span>
           </div>
         </Link>

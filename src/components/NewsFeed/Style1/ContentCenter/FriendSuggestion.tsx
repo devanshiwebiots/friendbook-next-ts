@@ -26,7 +26,7 @@ const FriendSuggestion: FC = () => {
                               style={{ backgroundImage: `url("${ImagePath}/user-sm/${data}.jpg")`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", display: "block",}}
                             />
                             <span className="stats">
-                              <Image width={22} height={22} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyloaded" alt="verified"/>
+                              <Image width={22} height={22} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyloaded" alt="verified" unoptimized/>
                             </span>
                           </div>
                         </div>

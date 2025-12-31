@@ -36,7 +36,7 @@ const FriendListBox: React.FC = () => {
                           <CustomImage src={`${ImagePath}/user-sm/${data}.jpg`} className="img-fluid blur-up lazyload bg-img" alt="profile"/>
                         </div>
                         <span className="stats">
-                          <Image src={`${ImagePath}/icon/verified.png`} width={15} height={15} className="img-fluid blur-up lazyloaded" alt="verified"/>
+                          <Image src={`${ImagePath}/icon/verified.png`} width={15} height={15} className="img-fluid blur-up lazyloaded" alt="verified" unoptimized/>
                         </span>
                       </div>
                     </div>

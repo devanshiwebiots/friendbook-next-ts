@@ -24,7 +24,7 @@ const CommonPostReact: FC = () => {
                 {reactions.map((data, index) => (
                   <li key={index} data-title={data.tittle}>
                     <a href={Href}>
-                      <Image width={28} height={28} src={`${SvgPath}/emoji/${data.imageName}.svg`} alt="smiles"/>
+                      <Image width={28} height={28} src={`${SvgPath}/emoji/${data.imageName}.svg`} alt="smiles" unoptimized/>
                     </a>
                   </li>
                 ))}

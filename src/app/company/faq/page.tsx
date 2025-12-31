@@ -18,7 +18,7 @@ const CompanyFaq = () => {
                   <p>looking for anything else? reach us by fill this form</p>
                 </div>
                 <div className="contact-img">
-                  <Image height={345.56} width={414.59} src={`${SvgPath}/faq.svg`} className="img-fluid blur-up lazyloaded" alt=""/>
+                  <Image height={345.56} width={414.59} src={`${SvgPath}/faq.svg`} className="img-fluid blur-up lazyloaded" alt="" unoptimized/>
                 </div>
               </div>
             </Col>

@@ -30,7 +30,7 @@ const CreatePostHeader: FC<CreatePostHeaderInterFace> = ({writePost,setShowPostB
           placeholder="write something here.."
         />
         <a href={Href}>
-          <Image width={14} height={12} src={`${ImagePath}/icon/translate.png`} className="img-fluid blur-up icon lazyloaded" alt="translate"/>
+          <Image width={14} height={12} src={`${ImagePath}/icon/translate.png`} className="img-fluid blur-up icon lazyloaded" alt="translate" unoptimized/>
         </a>
       </div>
     </div>

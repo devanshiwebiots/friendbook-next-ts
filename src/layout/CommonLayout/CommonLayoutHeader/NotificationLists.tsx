@@ -13,7 +13,7 @@ const NotificationLists: FC<NotificationListsProps> = ({setShowNotification,}) =
         <li key={index} onClick={() => setShowNotification(false)}>
           <a href={Href}>
             <Media>
-              <Image src={`${ImagePath}/user-sm/${data.image}.jpg`} alt="user" width={40} height={40}/>
+              <Image src={`${ImagePath}/user-sm/${data.image}.jpg`} alt="user" width={40} height={40} unoptimized/>
               <Media body>
                 <div>
                   <h5 className="mt-0">

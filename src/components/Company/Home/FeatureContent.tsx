@@ -13,7 +13,7 @@ const FeatureContent: React.FC = () => {
           <div className="user-section">
             <ul>
                 {names.map((data)=><li key={data}>
-                <Image height={55} width={55} src={`${ImagePath}/user-sm/${data}.jpg`} className="img-fluid blur-up lazyloaded" alt=""/>
+                <Image height={55} width={55} src={`${ImagePath}/user-sm/${data}.jpg`} className="img-fluid blur-up lazyloaded" alt="" unoptimized/>
               </li>)}
             </ul>
           </div>

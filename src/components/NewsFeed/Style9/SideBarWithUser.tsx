@@ -23,6 +23,7 @@ const SideBarWithUser = () => {
               src={`${ImagePath}/icon/verified.png`}
               className="img-fluid blur-up lazyloaded"
               alt="verified"
+              unoptimized
             />
           </span>
         </div>
@@ -34,7 +35,7 @@ const SideBarWithUser = () => {
       <SideBarMenus />
       <div className="main-icon">
         <a href={Href}>
-          <Image width={22} height={22} src={`${SvgPath}/sidebar-vector/next.svg`} className="bar-icon-img" alt="menu"/>
+          <Image width={22} height={22} src={`${SvgPath}/sidebar-vector/next.svg`} className="bar-icon-img" alt="menu" unoptimized/>
           <h4>logout</h4>
         </a>
       </div>

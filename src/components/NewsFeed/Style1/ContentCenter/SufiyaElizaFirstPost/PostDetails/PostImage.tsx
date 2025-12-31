@@ -16,6 +16,7 @@ const PostImage: FC<PostDetailInterFace> = ({mainImage}) => {
         src={`${ImagePath}/post/${mainImage}.jpg`}
         className="img-fluid blur-up lazyloaded"
         alt="image"
+        unoptimized
       />
       <div className="controler">
         <a href={Href} className="play"  onClick={modalToggle}>

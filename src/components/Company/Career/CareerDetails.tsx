@@ -16,7 +16,7 @@ const CareerDetails: React.FC = () => {
                 <p>Join our team and help build the world’s best platform</p>
               </div>
               <div className="contact-img">
-                <Image height={208.14} width={343.09} src={`${SvgPath}/hire.svg`} className="img-fluid blur-up lazyloaded" alt=""/>
+                <Image height={208.14} width={343.09} src={`${SvgPath}/hire.svg`} className="img-fluid blur-up lazyloaded" alt="" unoptimized/>
               </div>
             </div>
           </Col>

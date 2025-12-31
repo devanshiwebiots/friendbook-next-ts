@@ -15,7 +15,7 @@ const SufiyaElizaThirdPost: FC<SufiyaElizaThirdPostInterface> = ({fourthPost,use
       <div className="post-details">
         <div className="img-wrapper">
           {fourthPost ? (
-            <Image src={`${ImagePath}/post/${fourthPost}.jpg`} className="img-fluid blur-up lazyloaded" alt="image" width={523} height={542} />
+            <Image src={`${ImagePath}/post/${fourthPost}.jpg`} className="img-fluid blur-up lazyloaded" alt="image" width={523} height={542} unoptimized />
           ) : (
             <div
               style={{ width: "100%", height: 0, paddingBottom: "56%", position: "relative",}}

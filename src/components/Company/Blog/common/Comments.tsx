@@ -11,7 +11,7 @@ interface CommentsInterFace {
 const Comments: React.FC<CommentsInterFace> = ({ comment, image,replay }) => {
   return (
     <Media className={replay?"inner-comment":""}>
-      <Image height={60} width={60} src={`${ImagePath}/user-sm/${image}.jpg`} className="img-fluid blur-up lazyloaded" alt=""/>
+      <Image height={60} width={60} src={`${ImagePath}/user-sm/${image}.jpg`} className="img-fluid blur-up lazyloaded" alt="" unoptimized/>
       <Media body>
         <div className="title">
           <div className="comment-user">

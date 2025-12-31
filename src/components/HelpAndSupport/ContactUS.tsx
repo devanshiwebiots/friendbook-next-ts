@@ -16,7 +16,7 @@ const ContactUS: React.FC = () => {
                 <p>looking for anything else? reach us by fill this form</p>
               </div>
               <div className="contact-img">
-                <Image height={261} width={415} src={`${SvgPath}/help-topics/contact.svg`} className="img-fluid blur-up lazyloaded" alt=""/>
+                <Image height={261} width={415} src={`${SvgPath}/help-topics/contact.svg`} className="img-fluid blur-up lazyloaded" alt="" unoptimized/>
               </div>
             </div>
           </Col>

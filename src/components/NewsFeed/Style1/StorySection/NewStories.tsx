@@ -14,6 +14,7 @@ const NewStories: FC = () => {
               src={`${ImagePath}/icon/plus.png`}
               className="img-fluid blur-up lazyloaded"
               alt="plus"
+              unoptimized
             />
           </div>
           <h6>{AddStories}</h6>

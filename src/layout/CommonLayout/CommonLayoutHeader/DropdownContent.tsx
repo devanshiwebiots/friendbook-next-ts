@@ -12,7 +12,7 @@ const DropdownContent:FC = () => {
         {imageNames.map((data, index) => (
           <li key={index}>
             <Media>
-              <Image width={40} height={40} src={`${ImagePath}/user-sm/${data}.jpg`} alt="user"/>
+              <Image width={40} height={40} src={`${ImagePath}/user-sm/${data}.jpg`} alt="user" unoptimized/>
               <Media body>
                 <div>
                   <h5 className="mt-0">Paige Turner</h5>

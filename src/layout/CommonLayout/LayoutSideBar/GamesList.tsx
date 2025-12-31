@@ -24,7 +24,7 @@ const GamesList: FC = () => {
           <div key={index}>
             <div >
               <a href={Href}>
-                <Image src={`${ImagePath}/icon/game/${data}.jpg`} alt="image" width={21} height={21}/>
+                <Image src={`${ImagePath}/icon/game/${data}.jpg`} alt="image" width={21} height={21} unoptimized/>
               </a>
             </div>
           </div>

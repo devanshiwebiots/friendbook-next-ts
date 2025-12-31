@@ -18,7 +18,7 @@ const WeatherIcon = () => {
                   <ul className="element-emoji weather-icon">
                     {DynamicNumberArray(94,2).map((emojiFilename, index) => (
                       <li key={index}>
-                        <Image height={60} width={60} src={`${SvgPath}/weather/001lighticons-${emojiFilename}.svg`} alt=""/>
+                        <Image height={60} width={60} src={`${SvgPath}/weather/001lighticons-${emojiFilename}.svg`} alt="" unoptimized/>
                       </li>
                     ))}
                   </ul>

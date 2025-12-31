@@ -16,7 +16,7 @@ const AllSvgEmoji = () => {
               <Row>
                 <Col xs="12">
                   <ul className="element-emoji">
-                    {DynamicNumberArray(115,3).map((emojiFilename, index) => (<li key={index}><Image height={40} width={40} className="inner-emoji" src={`${SvgPath}/emoji/${emojiFilename}.svg`} alt=""/></li>))}
+                    {DynamicNumberArray(115,3).map((emojiFilename, index) => (<li key={index}><Image height={40} width={40} className="inner-emoji" src={`${SvgPath}/emoji/${emojiFilename}.svg`} alt="" unoptimized/></li>))}
                   </ul>
                 </Col>
               </Row>

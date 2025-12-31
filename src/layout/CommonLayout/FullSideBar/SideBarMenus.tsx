@@ -15,6 +15,7 @@ const SideBarMenus: FC = () => {
               src={`${SvgPath}/sidebar-vector/${data.iconName}.svg`}
               className="bar-icon-img"
               alt="news"
+              unoptimized
             />
             <h4>{data.title}</h4>
           </a>

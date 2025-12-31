@@ -16,7 +16,7 @@ const FriendSectionPageCover: React.FC = () => {
                   <CustomImage src={`${ImagePath}/user-sm/14.jpg`} className="img-fluid blur-up lazyload bg-img" alt="profile"/>
                 </div>
                 <span className="stats">
-                  <Image width={15} height={15} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyloaded" alt="verified"/>
+                  <Image width={15} height={15} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyloaded" alt="verified" unoptimized/>
                 </span>
               </div>
             </div>

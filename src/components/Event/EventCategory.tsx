@@ -20,6 +20,7 @@ const EventCategory = () => {
             src={calender}
             className="img-fluid blur-up lazyloaded"
             alt="calender"
+            unoptimized
           />
         </div>
         <div className="content">

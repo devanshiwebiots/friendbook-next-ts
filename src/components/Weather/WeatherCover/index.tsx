@@ -45,7 +45,7 @@ const WeatherCover: FC = () => {
         <ul className="timeline-content theme-scrollbar">
           {weatherCoverData.map((data, index) => (
             <li key={index}>
-              <Image src={`${SvgPath}/weather/001lighticons-${data.imageName}.svg`} alt="image" width={60} height={60}/>
+              <Image src={`${SvgPath}/weather/001lighticons-${data.imageName}.svg`} alt="image" width={60} height={60} unoptimized/>
               <h4>{data.temperature}º</h4>
               <h6>{data.time}.00 AM</h6>
             </li>

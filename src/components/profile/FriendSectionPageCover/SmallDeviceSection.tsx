@@ -14,7 +14,7 @@ const SmallDeviceSection: React.FC = () => {
                 <CustomImage src={`${ImagePath}/user-sm/14.jpg`} className="img-fluid blur-up lazyload bg-img" alt="profile"/>
               </div>
               <span className="stats">
-                <Image height={15} width={15} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyload" alt="verified"/>
+                <Image height={15} width={15} src={`${ImagePath}/icon/verified.png`} className="img-fluid blur-up lazyload" alt="verified" unoptimized/>
               </span>
             </div>
           </div>

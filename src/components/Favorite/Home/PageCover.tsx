@@ -38,7 +38,7 @@ const PageCover: FC = () => {
             ))}
             <li>
               <h2>
-                <Image width={32} height={19} src={`${ImagePath}/flag.jpg`} alt="image" className="img-fluid blur-up lazyloaded"/>
+                <Image width={32} height={19} src={`${ImagePath}/flag.jpg`} alt="image" className="img-fluid blur-up lazyloaded" unoptimized/>
               </h2>
               <h6>usa</h6>
             </li>

@@ -20,7 +20,7 @@ const CompanyHomeSection: React.FC = () => {
             <Col lg="7" className="order-lg-2">
               <div className="content-screen">
                 <div className="main-screen">
-                  <Image src={`${ImagePath}/company-landing/home-laptop.png`} priority height={320} width={487} alt="image" className="img-fluid blur-up wow zoomIn lazyloaded" style={{visibility: "visible",animationDelay: "0.2s",animationName: "zoomIn",}}/>
+                  <Image src={`${ImagePath}/company-landing/home-laptop.png`} priority height={320} width={487} alt="image" className="img-fluid blur-up wow zoomIn lazyloaded" unoptimized style={{visibility: "visible",animationDelay: "0.2s",animationName: "zoomIn",}}/>
                 </div>
                 <div className="home-effect">
                   {numbers.map((data, index) => (

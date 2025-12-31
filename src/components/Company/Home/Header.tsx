@@ -16,7 +16,7 @@ const CompanyHeader:FC = () => {
           <div className="header-left">
             <div className="brand-logo">
               <Link href="/newsfeed/style1">
-                <img src={`${ImagePath}/icon/logo-color.png`} alt="logo" className="img-fluid blur-up lazyloaded"/>
+                <img src='/assets/images/user-sm/1.jpg' alt="logo" className="img-fluid blur-up lazyloaded"  />
               </Link>
             </div>
           </div>

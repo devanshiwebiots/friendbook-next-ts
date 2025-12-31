@@ -19,7 +19,7 @@ const ImageGallery: FC<CommonGalleryModalInterFace> = ({ toggle }) => {
           <div key={index}>
             <div style={{ width: "100%", display: "inline-block" }}>
               <div className="img-part">
-                <Image width={1165} height={775} src={`${ImagePath}/post/${data}.jpg`} className="img-fluid blur-up lazyloaded" alt="image"/>
+                <Image width={1165} height={775} src={`${ImagePath}/post/${data}.jpg`} className="img-fluid blur-up lazyloaded" alt="image" unoptimized/>
               </div>
             </div>
           </div>

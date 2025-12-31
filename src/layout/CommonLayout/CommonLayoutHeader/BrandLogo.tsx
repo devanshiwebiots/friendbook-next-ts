@@ -1,4 +1,4 @@
-import { ImagePath } from "../../../utils/constant";
+import { ImagePath } from "@/utils/constant";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,6 +12,7 @@ const BrandLogo = ({ differentLogo }: { differentLogo?: string }) => {
           src={`${ImagePath}/icon/${differentLogo?differentLogo:"logo.png"}`}
           alt="logo"
           className="img-fluid blur-up lazyloaded"
+          unoptimized
         />
       </Link>
     </div>

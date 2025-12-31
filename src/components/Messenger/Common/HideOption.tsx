@@ -14,6 +14,7 @@ const HideOption = () => {
               width={16}
               src={`${SvgPath}/${data}.svg`}
               alt=""
+              unoptimized
             />
           </li>
         ))}

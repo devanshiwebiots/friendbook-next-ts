@@ -10,7 +10,7 @@ const FriendRequest: FC<NotificationListsProps> = ({setShowNotification}) => {
     <li className="d-block" onClick={() => setShowNotification(false)}>
       <div>
         <Media>
-          <Image width={40} height={40} src={`${ImagePath}/user-sm/5.jpg`} alt="user"/>
+          <Image width={40} height={40} src={`${ImagePath}/user-sm/5.jpg`} alt="user" unoptimized/>
           <Media body>
             <div>
               <h5 className="mt-0">

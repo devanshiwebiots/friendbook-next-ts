@@ -13,6 +13,7 @@ const LoginWelcome = () => {
           className="img-fluid blur-up lazyloaded"
           alt="charcter"
           priority
+          unoptimized
         />
         <h1>{WelcomeBack}</h1>
       </div>

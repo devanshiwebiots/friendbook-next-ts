@@ -14,6 +14,7 @@ const FullSideBar: FC = () => {
             src={`${SvgPath}/sidebar-vector/menu.svg`}
             className="bar-icon-img"
             alt="menu"
+            unoptimized
           />
           <h4>{AllApps}</h4>
         </a>
@@ -27,6 +28,7 @@ const FullSideBar: FC = () => {
             src={`${SvgPath}/sidebar-vector/next.svg`}
             className="bar-icon-img"
             alt="menu"
+            unoptimized
           />
           <h4>logout</h4>
         </a>

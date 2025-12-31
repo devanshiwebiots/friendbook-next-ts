@@ -18,6 +18,7 @@ const FeatureLisiting: React.FC = () => {
             src={`${SvgPath}/checkmark.svg`}
             className="img-fluid blur-up lazyloaded"
             alt=""
+            unoptimized
           />
           {data}
         </li>

@@ -26,6 +26,7 @@ const CompanyFeatures: React.FC = () => {
                     src={`${SvgPath}/about/${data.imageName}.svg`}
                     className="img-fluid blur-up lazyloaded"
                     alt=""
+                    unoptimized
                   />
                 </div>
                 <div className="feature-content">

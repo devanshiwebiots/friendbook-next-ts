@@ -11,7 +11,7 @@ const CommonLikePanel: FC = () => {
         <ul>
           {emojisNames.map((data, index) => (
             <li key={index}>
-              <Image width={20} height={20} src={`${SvgPath}/emoji/${data}.svg`} alt="smile"/>
+              <Image width={20} height={20} src={`${SvgPath}/emoji/${data}.svg`} alt="smile" unoptimized/>
             </li>
           ))}
         </ul>

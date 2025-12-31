@@ -30,7 +30,7 @@ const WeatherSection: FC = () => {
         </h6>
       </div>
       <div className="flaks-img">
-        <Image width={66} height={66} src={`${ImagePath}/icon/snow-flaks.png`} className="img-fluid blur-up lazyloaded" alt="snow"/>
+        <Image width={66} height={66} src={`${ImagePath}/icon/snow-flaks.png`} className="img-fluid blur-up lazyloaded" alt="snow" unoptimized/>
       </div>
       <div className="snowflakes">
         {icons.map((data, index) => (
